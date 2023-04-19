@@ -1,0 +1,12 @@
+:root {
+  --margin-middle: 115px;
+
+  --header-height: 5rem;
+  --nav-color: #ffffff;
+  --nav-color-hover: #53f5fd;
+  --border-box-color: rgb(86, 198, 253, 0.8);
+  --text-color: #063f5c;
+  --footer-color: #43c5f5;
+
+  --logo-header: url(/src/img/logo/logo-lop.png);
+}

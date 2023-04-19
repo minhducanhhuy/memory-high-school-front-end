@@ -1,0 +1,111 @@
+.header {
+  /* padding-top: calc(8px + var(--header-height)); */
+  min-width: 100%;
+  min-height: var(--header-height);
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: var(--header-height);
+  width: calc(var(--header-height) + 2rem);
+  background-image: var(--logo-header);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-wrap_nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  border-radius: 3rem;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding-left: 26px;
+  padding-right: 26px;
+  margin-right: 24px;
+}
+
+.header-nav {
+  display: inline-flex;
+  position: relative;
+}
+
+.header-nav li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-nav_item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0 24px;
+  text-decoration: none;
+  color: var(--nav-color);
+  font-weight: bold;
+}
+
+.header-nav_item:hover {
+  color: var(--nav-color-hover);
+}
+
+.active {
+  color: var(--nav-color-hover);
+}
+
+.header-nav_line {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  width: 0;
+  height: 6px;
+  border-radius: 15px;
+  background-color: var(--nav-color-hover);
+  transition: all 0.2s ease;
+}
+
+.header-swap-btn {
+  display: flex;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.header-swap-btn:hover .header-swap-btn_icon {
+  color: var(--nav-color-hover);
+}
+
+.header-swap-btn:hover .header-swap-figure-btn_img {
+  width: var(--header-height);
+  height: var(--header-height);
+  /* opacity: 0.5; */
+  filter: invert(50%) sepia(16%) saturate(1645%) hue-rotate(164deg) brightness(100%) contrast(98%);
+  /* filter: invert(66%) sepia(16%) saturate(1645%) hue-rotate(164deg) brightness(104%) contrast(98%); */
+  /* background-image: linear-gradient(0,  rgba(86, 198, 253, 0.5), rgba(86, 198, 253, 0.5)),
+	url(/assets/img/swap-blue.png); */
+  /* //background-image: linear-gradient(0, #ccc, black); */
+}
+
+.header-swap-btn_icon {
+  font-size: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  color: var(--nav-color);
+}
+
+.header-swap-figure-btn_img {
+  width: var(--header-height);
+  background-image: var(--swap-btn-img);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 125%;
+}

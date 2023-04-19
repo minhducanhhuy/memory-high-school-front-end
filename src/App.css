@@ -1,0 +1,7 @@
+html {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom, #0b2753, #ad4a93);
+  font-family: 'Poppins', sans-serif;
+  font-feature-settings: 'palt';
+}
