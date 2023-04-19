@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/memory-high-school-front-end/static/css/main.238f02e0.css",
-    "main.js": "/memory-high-school-front-end/static/js/main.f86f6581.js",
+    "main.js": "/memory-high-school-front-end/static/js/main.a810b684.js",
     "static/media/slide_3.JPG": "/memory-high-school-front-end/static/media/slide_3.194d477f8054d0856055.JPG",
     "static/media/slide_2.JPG": "/memory-high-school-front-end/static/media/slide_2.fca75c16ea28ea077572.JPG",
     "static/media/slide_1.JPG": "/memory-high-school-front-end/static/media/slide_1.231965a3089851a379fa.JPG",
@@ -50,10 +50,10 @@
     "static/media/logo-lop.png": "/memory-high-school-front-end/static/media/logo-lop.d17d2fed69683541d129.png",
     "index.html": "/memory-high-school-front-end/index.html",
     "main.238f02e0.css.map": "/memory-high-school-front-end/static/css/main.238f02e0.css.map",
-    "main.f86f6581.js.map": "/memory-high-school-front-end/static/js/main.f86f6581.js.map"
+    "main.a810b684.js.map": "/memory-high-school-front-end/static/js/main.a810b684.js.map"
   },
   "entrypoints": [
     "static/css/main.238f02e0.css",
-    "static/js/main.f86f6581.js"
+    "static/js/main.a810b684.js"
   ]
 }
