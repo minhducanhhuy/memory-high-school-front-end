@@ -15,11 +15,11 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" exact element={<MyClass />} />
-          <Route path="/MyClass" exact element={<MyClass />} />
-          <Route path="/Members" element={<Members />} />
-          <Route path="/Album" element={<Album />} />
-          <Route path="/LastDay" element={<LastDay />} />
+          <Route path="memory-high-school-front-end/" exact element={<MyClass />} />
+          <Route path="memory-high-school-front-end/MyClass" exact element={<MyClass />} />
+          <Route path="memory-high-school-front-end/Members" element={<Members />} />
+          <Route path="memory-high-school-front-end/Album" element={<Album />} />
+          <Route path="memory-high-school-front-end/LastDay" element={<LastDay />} />
         </Routes>
       </Router>
     </div>
